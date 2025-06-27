@@ -1,0 +1,16 @@
+{
+  "name": "p3",
+  "version": "1.0.0",
+  "description": "## 1. Controle de Versão - Branches: main, develop, feature/* - Commits atômicos - Merge com `--no-ff` - Exemplo de comandos: ```bash git checkout main git checkout -b develop git checkout -b feature/teste git add . && git commit -m \"feat: add nova feature\" git push origin feature/teste ``` ## 2. GitHub Actions Arquivo `.github/workflows/ci.yml` realiza testes automáticos com Node.js usando Jest.",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^30.0.3"
+  }
+}
